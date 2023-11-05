@@ -35,14 +35,19 @@
 
 
 // Difference of Volumes of Cuboids
-function findDifference(a, b) {
-    //loading...
+// function findDifference(a, b) {
+//     //loading...
     
-   var d = 0;
-    d= a[0]*a[1]*a[2] - b[0]*b[1]*b[2];
-    if(d < 0){
-      d= d* -1
-    }
-    return d
+//    var d = 0;
+//     d= a[0]*a[1]*a[2] - b[0]*b[1]*b[2];
+//     if(d < 0){
+//       d= d* -1
+//     }
+//     return d
       
-  }
+//   }
+
+// L1: Set Alarm
+function setAlarm(employed, vacation){
+    return employed && !vacation 
+}
