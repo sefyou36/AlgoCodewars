@@ -48,6 +48,12 @@
 //   }
 
 // L1: Set Alarm
-function setAlarm(employed, vacation){
-    return employed && !vacation 
-}
+// function setAlarm(employed, vacation){
+//     return employed && !vacation 
+// }
+
+// You only need one - Beginner
+function check(a, x) {
+    // your code here
+   return a.includes(x)
+  }
