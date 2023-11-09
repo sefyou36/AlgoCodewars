@@ -59,22 +59,22 @@
 //   }
 
 // //   Convert a string to an array
-function stringToArray(string){
+// function stringToArray(string){
 
-  let myletter = "";
-  let myarr = [];
+//   let myletter = "";
+//   let myarr = [];
   
-  for(let i = 0 ; i < string.length; i++){
-  //  console.log(string[i])
-   if( string[i] !== " "){
-      myletter = myletter + string[i];
-   }else{
-      myarr.push(myletter)
-      myletter = "";
-   }
-  } myarr.push(myletter)
-     return myarr;
-  }
+//   for(let i = 0 ; i < string.length; i++){
+//   //  console.log(string[i])
+//    if( string[i] !== " "){
+//       myletter = myletter + string[i];
+//    }else{
+//       myarr.push(myletter)
+//       myletter = "";
+//    }
+//   } myarr.push(myletter)
+//      return myarr;
+//   }
 
 // // Simple multiplication
 // function simpleMultiplication(number) {
@@ -114,4 +114,19 @@ function stringToArray(string){
 //       if(objtest[test[i]])
      
 //    }
+
+// sum of odd number 
+
+function rowSumOddNumbers(n) {
+
+   let first = (n -1) * n + 1
+   console.log(first)
+   let sum = 0
+ 
+   for(let i = 0 ; i < n; i++){
+       sum = sum + first + 2*i
+   }
+ 
+   return sum
+ }
 
